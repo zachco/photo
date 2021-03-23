@@ -4,13 +4,13 @@
 <head>
   <title>Zach Cohen</title>
   <meta charset="utf-8" />
-  <meta name="description" content="Arizona based photographer" />
-  <meta name="keywords" content="Zach Cohen, photographer, photography, ztc.jpg, Arizona" />
-  <meta property="og:url" content="http://ztc.photos" />
-  <meta property="og:type" content="website" />
-  <meta property="og:title" content="Zach Cohen" />
-  <meta property="og:description" content="Arizona based photographer" />
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/holiday.css@0.9.5" />
+  <meta name="description" content="Arizona based photographer"/>
+  <meta name="keywords" content="Zach Cohen, photographer, photography, ztc.jpg, Arizona"/>
+  <meta property="og:url" content="http://ztc.photos"/>
+  <meta property="og:type" content="website"/>
+  <meta property="og:title" content="Zach Cohen"/>
+  <meta property="og:description" content="Arizona based photographer"/>
+  <link rel="stylesheet" href="style.css"/>
   <link rel="apple-touch-icon" sizes="57x57" href="assets/icons/apple-icon-57x57.png">
   <link rel="apple-touch-icon" sizes="60x60" href="assets/icons/apple-icon-60x60.png">
   <link rel="apple-touch-icon" sizes="72x72" href="assets/icons/apple-icon-72x72.png">
@@ -33,50 +33,42 @@
 <body>
   <header>
     <h1>Zach Cohen</h1>
-    <h2>Hobbyist photographer in Phoenix, Arizona</h2>
   </header>
   <main>
-    <figure>
-      <img src="assets/images/Notredame.jpg" loading="lazy" alt="Notre Dame" />
-      <figcaption>Notre Dame Cathedral, Paris, 2013</figcaption>
-    </figure>
+      <section id="photos">
+        
+        <p>I'm a hobbyist photographer in Phoenix, Arizona.</p>
 
-    <figure>
-      <img src="assets/images/Kensington1.jpg" loading="lazy" alt="Kensington Gardens" />
-      <figcaption>Kensington Gardens, London, 2013</figcaption>
-    </figure>
-
-    <figure>
-      <img src="assets/images/Kensington2.jpg" loading="lazy" alt="Kensington Gardens" />
-      <figcaption>Kensington Gardens, London, 2013</figcaption>
-    </figure>
-
-    <figure>
-      <img src="assets/images/LaJollaSunset1.jpg" loading="lazy" alt="La Jolla Sunset" />
-      <figcaption>La Jolla, California, 2019</figcaption>
-    </figure>
-
-    <figure>
-      <img src="assets/images/RockportSea.jpg" loading="lazy" alt="Rockport Sea" />
-      <figcaption>Rockport, Massachusetts, 2017</figcaption>
-    </figure>
-
-    <figure>
-      <img src="assets/images/SedonaCreek.jpg" loading="lazy" alt="Sedona Creek" />
-      <figcaption>Sedona, Arizona, 2018</figcaption>
-    </figure>
-
-    <figure>
-      <img src="assets/images/sedonatrees.jpg" loading="lazy" alt="Flagstaff Trees" />
-      <figcaption>Flagstaff, Arizona, 2019</figcaption>
-    </figure>
-
-    <figure>
-      <img src="assets/images/TheBroad.jpg" loading="lazy" alt="The Broad Museum" />
-      <figcaption>The Broad Museum, Los Angeles, 2016</figcaption>
-    </figure>
+        <!-- You can use this grid of images in any page -->
+        
+        <div class="grid">
+          <a href="#img-01"><img loading="lazy" alt="Notre Dame" src="assets/images/Notredame.jpg"></a>
+          <a href="#img-02"><img loading="lazy" alt="Kensington Gardens" src="assets/images/Kensington1.jpg"></a>
+          <a href="#img-03"><img loading="lazy" alt="Kensington Gardens" src="assets/images/Kensington2.jpg"></a>
+          <a href="#img-04"><img loading="lazy" alt="La Jolla Sunset" src="assets/images/LaJollaSunset1.jpg"></a>
+          <a href="#img-05"><img loading="lazy" alt="Rockport Sea" src="assets/images/RockportSea.jpg"></a>
+          <a href="#img-06"><img loading="lazy" alt="Sedona Creek" src="assets/images/SedonaCreek.jpg"></a>
+          <a href="#img-07"><img loading="lazy" alt="Flagstaff Trees" src="assets/images/sedonatrees.jpg"></a>
+          <a href="#img-08"><img loading="lazy" alt="The Broad Museum" src="assets/images/TheBroad.jpg"></a>
+        </div>
+        <article>
+          <blockquote>“What makes photography a strange invention is that its primary raw materials are light and time.” - John Berger </blockquote>
+        </article>
+      </section>
+      
   </main>
-  <footer>“What makes photography a strange invention is that its primary raw materials are light and time.”</footer>
-</body>
+  <!-- ---------- LIGHTBOX IMAGES ----------- -->
 
+    <!-- PHOTOS grid -->
+    
+    <a href="#photos" class="lightbox" id="img-01"><img loading="lazy" alt="" src="assets/images/Notredame.jpg"></a>
+    <a href="#photos" class="lightbox" id="img-02"><img loading="lazy" alt="" src="assets/images/Kensington1.jpg"></a>
+    <a href="#photos" class="lightbox" id="img-03"><img loading="lazy" alt="" src="assets/images/Kensington2.jpg"></a>
+    <a href="#photos" class="lightbox" id="img-04"><img loading="lazy" alt="" src="assets/images/LaJollaSunset1.jpg"></a>
+    <a href="#photos" class="lightbox" id="img-05"><img loading="lazy" alt="" src="assets/images/RockportSea.jpg"></a>
+    <a href="#photos" class="lightbox" id="img-06"><img loading="lazy" alt="" src="assets/images/SedonaCreek.jpg"></a>
+    <a href="#photos" class="lightbox" id="img-07"><img loading="lazy" alt="" src="assets/images/sedonatrees.jpg"></a>
+    <a href="#photos" class="lightbox" id="img-08"><img loading="lazy" alt="" src="assets/images/TheBroad.jpg"></a>
+
+</body>
 </html>
