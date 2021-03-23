@@ -40,10 +40,6 @@
     background: var(--bgcolor);
   }
   
-  section:target { /* Show section */
-    display: block;
-  }
-  
   section#photos { /* Show #home by default */
     display: block;
   }
