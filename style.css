@@ -40,6 +40,9 @@
     background: var(--bgcolor);
   }
   
+  section#photos { /* Show #home by default */
+    display: block;
+  }
   
   /* ------- Header ------- */
   
